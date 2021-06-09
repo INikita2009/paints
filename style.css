@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+}
+.bb{
+	height: 80vh;
+	padding:10vh;
+}
+
+.b1{
+	background-image: url(image/img1.jpeg);
+	background-position: center;
+	background-size: cover;
+	width: 500px;
+	height: 400px;
+	float: left;
+	transition: transform 0.3s ease;
+}
+.b2{
+	background-image: url(image/img2.jpeg);
+	background-position: center;
+	background-size: cover;
+	width: 500px;
+	height: 400px;
+	float: left;
+	margin-left: 10vh;
+	transition: transform 0.3s ease;
+}	
+.b3{
+	background-image: url(image/img3.jpeg);
+	background-position: center;
+	background-size: cover;
+	width:500px;
+	height: 400px;
+	float: left;
+	margin-left: 10vh;
+	transition: transform 0.3s ease;
+}
+.b4{
+	background-image: url(image/img4.jpeg);
+	background-position: center;
+	background-size: cover;
+	width: 500px;
+	height: 400px;
+	float: left;
+	clear: both;
+	margin-top: 10vh;
+	transition: transform 0.3s ease;
+}
+.b5{
+	background-image: url(image/img5.jpeg);
+	background-position: center;
+	background-size: cover;
+	width: 500px;
+	height: 400px;
+	float: left;
+	margin-left: 10vh;
+	margin-top: 10vh;
+	transition: transform 0.3s ease:;
+}	
+.b6{
+	background-image: url(image/img6.jpeg);
+	background-position: center;
+	background-size: cover;
+	width:500px;
+	height: 400px;
+	float: left;
+	margin-left: 10vh;
+	margin-top: 10vh;
+	transition: transform 0.3s ease;
+}
+.b1:active{
+	transform: rotateY(180deg);
+}
+.b2:hover{
+	transform: rotateX(180deg);
+}
+.b3:active{
+	transform: rotateY(180deg);
+}
+.b4:hover{
+	transform: rotateX(180deg); 
+}
+.b5:active{
+	transform: rotateY(180deg);
+}
+.b6:hover{
+	transform: rotateX(180deg);
+}
+
+
